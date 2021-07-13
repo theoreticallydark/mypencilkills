@@ -1,9 +1,9 @@
 
-function openNav1() {
+function openNav1(n2) {
     document.getElementById("POPUP1").style.width = "100%";
 }
     
-function closeNav1() {
+function closeNav1(n2) {
     document.getElementById("POPUP1").style.width = "0%";
 }
 
