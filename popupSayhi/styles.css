@@ -141,17 +141,21 @@ html,body
   margin-top: 8vh;margin-bottom: 2vh; width: 100%;
 }
 
-.closebar img{
-  width:8vh; margin-right: 2vw;
+.closebar a img{
+  width:8vh; margin-right: 4vh;
 }
 
+
 .closebar button{
-  cursor:pointer ;border-radius: 1vh;width: 100%; height: 4vh; font-family: futura; 
+  cursor:pointer ;border-radius: 1vh;width: 45vh; height: 4vh; font-family: futura; 
   background-color: #FF5F5F; 
   color: white;
   border: none;
 }
 
+.closebar button:hover{
+  background-color: #1E626B;
+}
 @media only screen and (max-width: 600px) {
   .POPUP1{
       height: 95vh;
@@ -165,12 +169,13 @@ html,body
   
   }
   .leftbox2{
+      
       width: 100%;
-      height: 50vh;
+      height: 42vh;
       color: black;
       font-size: 0px;
       line-height: 1.10;
-      margin-top: 4vh;
+      margin-top: 3vh;
       margin-right: 0vw;
   }
   .title{
@@ -257,25 +262,24 @@ html,body
   .closebar{
     display: flex;
     flex-direction: column;
-    width: auto;
-  
   }
   
   .closebar k{
-    margin-top: 0;margin-bottom: 1vh; width: 100%;
+    margin-top: 0vh;margin-bottom: 1vh; width: 100%;
   }
   
-  .closebar img{
-    width:4vh;height: 4vh; margin-right: 2.4vw;
+  .closebar a img{
+    width:4vh; margin-right: 2vh;
   }
-
+  
+  
   .closebar button{
-    cursor:pointer ;border-radius: 0.5vh;width: 97%; height: 2.2vh; font-family: futura; 
+    cursor:pointer ;border-radius: 1vh;width: 26vh; height: 2vh; font-family: futura; 
     background-color: #FF5F5F; 
     color: white;
-    font-size: 3vw;
     border: none;
   }
+  
   
   
 
